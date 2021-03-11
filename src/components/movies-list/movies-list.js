@@ -1,0 +1,1 @@
+import React from 'react';import MoviesListItem from "../movies-list-item";function MoviesList(props){    const {movies} = props;    return <div className='movies'>            {movies.map(movie => (                <MoviesListItem key={movie.imdbID} {...movie}/>            ))}        </div>}export default MoviesList;
