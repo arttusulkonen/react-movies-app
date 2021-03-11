@@ -19,3 +19,7 @@ nav {
     top: 0;
     right: 0.5rem;
 }
+.radio-buttons{
+    display: flex;
+    justify-content: space-around;
+}
